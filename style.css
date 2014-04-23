@@ -1,0 +1,147 @@
+body {
+    font: 10px arial,sans-serif;
+    margin:0px;
+}
+#wrapper { 
+    position:absolute;
+    top:120px;
+    padding:0px;
+    margin:0px;
+    width:100%;
+}
+
+#logo {
+    position:fixed;
+    top:4px;
+    left:4px;
+    width:90px;
+    height:90px;
+    overflow:none;
+    background:url('logo90.png');
+    z-index:7777;
+}
+#title {
+    background-color:#eee;
+    color:#fff;
+    position:fixed;
+    top:0px;
+    width: 100%;
+    margin: 0px;
+    padding:5px;
+    font-size:48px;
+    font-weight:bold;
+    text-align:center;
+    text-shadow:1px 1px 0px #000;
+    z-index:999;
+    padding-left:90px;
+}
+
+#title #sub {
+    font-size:16px;
+    font-weight:normal;
+    text-align:center;
+    color:#fff;
+    text-shadow:1px 1px 0px #000
+}
+
+#title #sub a {
+    color:#fff;
+}
+.dates {
+    position:absolute;
+    top:90px;
+    text-align:right;
+    border-right:1px solid black;
+    position:fixed;
+    background-color:white;
+    z-index:100;
+    padding:2px;
+}
+
+.user {
+    border-right: 1px solid #000;
+    z-index:10;
+}
+
+.username:hover {
+    opacity:1 !important;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.user:hover {
+    opacity:1 !important;
+    outline: 1px dashed black;
+    cursor:pointer;
+}
+
+#now {
+    border-right:1px solid black;
+    z-index:0;
+}
+
+#info {
+    position:fixed;
+    top:5%;
+    bottom:5%;
+    left:5%;
+    right:5%;
+    padding:4px;
+    display:none;
+    background-color:white;
+    z-index:5898;
+    text-align:center;
+    border:1px solid #606;
+    font-size:14px;
+}
+
+#info h1 {
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#info h2 {
+    text-align:center;
+    font-size:16px;
+}
+
+#info #badge {
+    text-align:center;
+    width: 50%;
+    margin: auto;
+    padding:5px;
+    border:3px solid black;
+    color:#fff;
+    background-color:#ccc;
+    text-shadow:1px 1px 0px #000
+}
+
+#info #charts {
+    width: 95%;
+    margin: auto;
+    padding:5px;
+    overflow:auto;
+    border:1px solid black;
+    height:50%;
+}
+
+#maininfo {
+    position:fixed;
+    top:5%;
+    bottom:5%;
+    left:20%;
+    right:20%;
+    padding:4px;
+    display:none;
+    background-color:white;
+    z-index:5898;
+    text-align:center;
+    border:1px solid #606;
+    font-size:14px;
+    overflow:auto;
+}
+
+#maininfo td {
+    font-size:11px;
+}
